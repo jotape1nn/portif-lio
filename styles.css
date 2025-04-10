@@ -1,0 +1,75 @@
+.end{
+    background-color: rgb(13, 0, 255);
+    color: white;
+    padding: 17px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.end:hover{
+    background-color: rgb(10, 10, 91);
+}
+
+header{
+    text-align: center;
+}
+.nomes {
+    background-color: rgb(18, 18, 146);
+    color: white;
+    width: 300px;
+    height: 33px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url(img/fundo.jpg);
+}
+
+.img{
+    border-radius: 20px;
+}
+.log {
+    background-color: rgb(9, 9, 67);
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    margin-left: 110px;
+    text-decoration: none;
+}
+.log:hover{
+    background-color: rgb(3, 3, 33);
+}
+
+main{
+    margin-left: 50px;
+}
+
+footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.cabeçalho{
+    background-color: rgb(17, 17, 87);
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-size: 30px;
+}
+/* css da aba de formulario */
+
+.cadastro{
+    text-align: center;
+}
+
+.titleca{
+    background-color: rgb(95, 95, 108);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
