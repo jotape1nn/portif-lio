@@ -20,9 +20,11 @@ header{
     color: white;
     width: 300px;
     height: 33px;
-    text-align: center;
     border-radius: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 body{
     background-image: url(img/fundo.jpg);
@@ -35,10 +37,13 @@ body{
 .log {
     background-color: rgb(9, 9, 67);
     color: white;
-    padding: 13px 20px;
+    padding: 20px 30px;
     text-align: center;
-    margin-left: 110px;
+    margin-left: 80px;
     text-decoration: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .log:hover{
@@ -81,6 +86,8 @@ footer{
 .rede {
     padding: 0px 22px 0px 25px;
 }
+
+
 /* css da aba de formulario */
 
 .cadastro{
@@ -88,7 +95,34 @@ footer{
 }
 
 .titleca{
-    background-color: rgb(95, 95, 108);
+    background-color: rgb(5, 5, 189);
     color: rgb(255, 255, 255);
     padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enviar {
+    background-color: rgb(6, 6, 111);
+    color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.enviar:hover {
+    background-color: blue;
+}
+
+p {
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+k{
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+ul {
+    font-family: "Special Gothic Expanded One", sans-serif;
 }
