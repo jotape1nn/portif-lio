@@ -6,6 +6,8 @@
     text-decoration: none;
     border-radius: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 .end:hover{
     background-color: rgb(10, 10, 91);
@@ -125,4 +127,8 @@ k{
 }
 ul {
     font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+@media screen and (max-width: 1020px) {
+
 }
