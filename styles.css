@@ -131,10 +131,11 @@ k{
 ul {
     font-family: "Special Gothic Expanded One", sans-serif;
 }
+
 @media screen and (max-width: 768px){
 .body{
     width: 100%;
     flex-direction: column;
 }
 }
-    
+
