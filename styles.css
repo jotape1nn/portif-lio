@@ -27,7 +27,12 @@ header{
     align-items: center;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     background-image: url(img/fundo.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+
 }
 
 .img{
@@ -126,3 +131,10 @@ k{
 ul {
     font-family: "Special Gothic Expanded One", sans-serif;
 }
+@media screen and (max-width: 768px){
+.body{
+    width: 100%;
+    flex-direction: column;
+}
+}
+    
